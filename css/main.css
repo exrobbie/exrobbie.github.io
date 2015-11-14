@@ -6,8 +6,9 @@ body{
 	font-family:Verdana;
 }
 #content-top{
-	background:url("../img/bg.jpg") no-repeat left center;
+	background:url("../img/bg.jpg") no-repeat center center;
 	width: 100%;
+	margin:0 auto;
 }
 #title{
 	line-height: 500px;
