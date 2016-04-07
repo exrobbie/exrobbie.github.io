@@ -3,6 +3,7 @@ var uglify = require('gulp-uglify');
 var jshint = require('gulp-jshint');
 var less = require('gulp-less');
 var autoprefixer = require('gulp-autoprefixer');
+var cleanCSS=require('gulp-clean-css');
 gulp.task('js', function() {
     return gulp.src('./src/js/main.js')
         .pipe(jshint())
@@ -18,6 +19,7 @@ gulp.task('css', function() {
 			browsers: ['firefox < 20','ie 9'],
 			cascade: false
 		}))
+		.pipe(cleanCSS())
         .pipe(gulp.dest('./dest/css/'));
 });
 
