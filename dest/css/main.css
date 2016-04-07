@@ -20,6 +20,8 @@ body {
   font-size: 80px;
   text-align: center;
   -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
   border-radius: 5px;
+  -moz-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  transform: rotate(20deg);
 }
