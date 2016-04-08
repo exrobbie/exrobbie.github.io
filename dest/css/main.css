@@ -16,7 +16,7 @@ body {
 }
 #title {
   margin-top: 200px;
-  color: #ffcccc;
+  color: rgba(255, 0, 0, 0.7);
   font-size: 80px;
   text-align: center;
   -moz-border-radius: 5px;
