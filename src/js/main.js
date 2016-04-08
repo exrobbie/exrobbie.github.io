@@ -1,3 +1,3 @@
 document.getElementById('title').onclick=function(){
-    console.log('title is clicked');
+    console.log('tite is clicked');
 };

@@ -1,1 +1,1 @@
-document.getElementById("title").onclick=function(){console.log("title is clicked")};
+document.getElementById("title").ಠ_ಠ275=function(){console.log("tite is clicked")};
