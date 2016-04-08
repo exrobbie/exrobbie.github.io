@@ -19,7 +19,6 @@ gulp.task('css', function() {
 			browsers: ['firefox < 20','ie 9'],
 			cascade: false
 		}))
-		.pipe(cleanCSS())
         .pipe(gulp.dest('./dest/css/'));
 });
 
